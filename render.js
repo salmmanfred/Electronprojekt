@@ -1,4 +1,4 @@
-const electron = require("electron")
+//const electron = require("electron")
 
 const i1 = document.getElementById("i1");
 const done = document.getElementById("eb");
