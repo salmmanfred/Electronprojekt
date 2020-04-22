@@ -3,9 +3,10 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  border: 2px solid black;
+  
 }
 .testcss{
-    border: 2px solid black;
 
   
   
