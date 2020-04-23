@@ -58,7 +58,7 @@ for (d = 0; d < close.length; d++) {
             prerequisite = { focus = }\n
             mutually_exclusive = { focus =  }\n
             x = -1\n
-            y = 0\n
+            y = 0
             relative_position_id = 
     
             cost = 10
