@@ -4,6 +4,8 @@ const i1 = document.getElementById("i1");
 const done = document.getElementById("eb");
 var i = 0
 var d = 0
+
+
 //https://hoi4.paradoxwikis.com/National_Focus_modding#Attributes
 done.addEventListener("click", function() {
 
@@ -49,8 +51,57 @@ const  fritsa = document.getElementById("outp");
 var close = document.getElementsByClassName("dele")
 var d;
 for (d = 0; d < close.length; d++) {
-    
-     fritsa.innerHTML = fritsa.innerHTML + "" + getc(d, "i1") + getc(d, "i2")
+
+  const var = `focus = {
+    #        id = AST_
+    #        icon = GFX_goal_generic_construction
+    #        prerequisite = { focus = }
+    #        mutually_exclusive = { focus =  }
+    #        x = -1
+    #        y = 0
+    #        relative_position_id = 
+    #
+    #        cost = 10
+    #
+    #        ai_will_do = {
+    #            factor = 1
+    #        }
+    #
+    #        available = {
+    #
+    #        }
+    #
+    #        bypass = {
+    #
+    #        }
+    #
+    #        cancel_if_invalid = yes
+    #        continue_if_invalid = no
+    #        available_if_capitulated = no
+    #
+    #        complete_tooltip = {
+    #
+    #        }
+    #
+    #        completion_reward = {
+    #
+    #        }
+    #    }`
+  fritsa.innerHTML = fritsa.innerHTML + a1 +a2+a3+a4;
+
+
+
+
+
+
+
+  
+       
+     
+       
+
+
+
   
 }
  
