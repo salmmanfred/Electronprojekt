@@ -52,42 +52,42 @@ var close = document.getElementsByClassName("dele")
 var d;
 for (d = 0; d < close.length; d++) {
 
-  const var = `focus = {
-    #        id = AST_
-    #        icon = GFX_goal_generic_construction
-    #        prerequisite = { focus = }
-    #        mutually_exclusive = { focus =  }
-    #        x = -1
-    #        y = 0
-    #        relative_position_id = 
-    #
-    #        cost = 10
-    #
-    #        ai_will_do = {
-    #            factor = 1
-    #        }
-    #
-    #        available = {
-    #
-    #        }
-    #
-    #        bypass = {
-    #
-    #        }
-    #
-    #        cancel_if_invalid = yes
-    #        continue_if_invalid = no
-    #        available_if_capitulated = no
-    #
-    #        complete_tooltip = {
-    #
-    #        }
-    #
-    #        completion_reward = {
-    #
-    #        }
-    #    }`
-  fritsa.innerHTML = fritsa.innerHTML + a1 +a2+a3+a4;
+  const peep = `focus = {
+            id = AST_ \n
+            icon = GFX_goal_generic_construction\n
+            prerequisite = { focus = }\n
+            mutually_exclusive = { focus =  }\n
+            x = -1\n
+            y = 0\n
+            relative_position_id = 
+    
+            cost = 10
+    
+            ai_will_do = {
+                factor = 1
+            }
+    
+            available = {
+    
+            }
+    
+            bypass = {
+    
+            }
+    
+            cancel_if_invalid = yes
+            continue_if_invalid = no
+            available_if_capitulated = no
+    
+            complete_tooltip = {
+    
+            }
+    
+            completion_reward = {
+    
+            }
+        }`
+  fritsa.innerHTML = fritsa.innerHTML + peep;
 
 
 
