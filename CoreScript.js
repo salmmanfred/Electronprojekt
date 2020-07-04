@@ -2,7 +2,7 @@
 function Changeweb(x) {
   console.log("x");
   if (x == 101) {
-    window.open("../Index.html", "_self");
+    window.open("../", "_self");
   }
   if (x == 0) {
     window.open("Index.html", "_self");
