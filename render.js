@@ -54,38 +54,60 @@ for (d = 0; d < close.length; d++) {
 
   const peep = `focus = {
             id = AST_ \n
+            <br>
             icon = GFX_goal_generic_construction\n
+            <br>
             prerequisite = { focus = }\n
+            <br>
             mutually_exclusive = { focus =  }\n
+            <br>
             x = -1\n
+            <br>
             y = 0
+            <br>
             relative_position_id = 
+            <br>
     
             cost = 10
+            <br>
     
             ai_will_do = {
+              <br>
                 factor = 1
+                <br>
             }
+            <br>
     
             available = {
+              <br>
     
             }
+            <br>
     
             bypass = {
+              <br>
     
             }
+            <br>
     
             cancel_if_invalid = yes
+            <br>
             continue_if_invalid = no
+            <br>
             available_if_capitulated = no
+            <br>
     
             complete_tooltip = {
+              <br>
     
             }
+            <br>
     
             completion_reward = {
+              <br>
     
             }
+            <br>
         }`
   fritsa.innerHTML = fritsa.innerHTML + peep;
 
