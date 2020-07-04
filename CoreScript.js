@@ -5,7 +5,7 @@ function Changeweb(x) {
     window.open("../", "_self");
   }
   if (x == 0) {
-    window.open("Index.html", "_self");
+    window.open("", "_self");
   }
   if (x == 1) {
     window.open("pages/news.html", "_self");
