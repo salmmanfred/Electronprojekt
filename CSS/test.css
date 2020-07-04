@@ -32,12 +32,53 @@ body {
 .button:active {
   background-color: gray;
 }
+.buttonf {
+  margin-top: 32px;
+  border: 2px solid rgb(158, 151, 151);
+  width: 500px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.buttonf:hover {
+  background-color: lightgray;
+}
+.buttonf:active {
+  background-color: gray;
+}
+.buttonff {
+  margin-top: 32px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 500px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.buttonff:hover {
+  background-color: lightgray;
+}
+.buttonff:active {
+  background-color: gray;
+}
 .buttonh {
   background: none;
   border: none;
   font-size: 40px;
   margin-top: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.buttonhs {
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.buttonhss {
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .buttons {
   margin-top: 32px;

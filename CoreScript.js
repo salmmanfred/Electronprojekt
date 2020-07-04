@@ -22,3 +22,6 @@ function Changeweb2(x) {
     window.open("news.html", "_self");
   }
 }
+function ht() {
+  window.open("pages/docs.html", "_self");
+}
